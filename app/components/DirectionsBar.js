@@ -135,7 +135,7 @@ export default class DirectionsBar extends Component {
         }
 
         // FOR DEMO ONLY: set departureTime to five minutes after current time string, in 'H:mmam' format
-        // departureTimes = ['12:17pm'];
+        departureTimes = ['12:37pm'];
 
         this.setState({
           directionsArr: objArrs.directionsArr,
